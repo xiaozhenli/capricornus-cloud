@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{E1B0A453-F234-4192-800A-5839319F3A95}"
+ProjectSection(SolutionItems) = preProject
+	build.cake = build.cake
+	build.ps1 = build.ps1
+	NuGet.config = NuGet.config
+	README.md = README.md
+	LICENSE = LICENSE
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1011150D-C1C8-4C96-AC1B-AB951A467A78}"
+ProjectSection(SolutionItems) = preProject
+	build\common.props = build\common.props
+	build\index.cake = build\index.cake
+	build\sign.props = build\sign.props
+	build\util.cake = build\util.cake
+	build\version.cake = build\version.cake
+	build\version.props = build\version.props
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{655521F5-7483-4664-A607-D7E87561AD9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{C86A589B-AF33-408D-89B6-84C16F32A6DC}"
+ProjectSection(SolutionItems) = preProject
+	appveyor.yml = appveyor.yml
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F7373D29-7FB2-4525-8298-8E7F740EE171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1011150D-C1C8-4C96-AC1B-AB951A467A78} = {E1B0A453-F234-4192-800A-5839319F3A95}
+		{C86A589B-AF33-408D-89B6-84C16F32A6DC} = {E1B0A453-F234-4192-800A-5839319F3A95}
+		{F7373D29-7FB2-4525-8298-8E7F740EE171} = {E1B0A453-F234-4192-800A-5839319F3A95}
+	EndGlobalSection
+EndGlobal

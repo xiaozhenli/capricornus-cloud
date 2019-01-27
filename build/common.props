@@ -1,0 +1,18 @@
+<Project>
+  <Import Project="sign.props" />
+  <Import Project="version.props" />
+  <PropertyGroup>
+    <Authors>capricornus-cloud team</Authors>
+    <Product>Capricornus Cloud</Product>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/46413344</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/capricornus-platform/capricornus-cloud</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/capricornus-platform/capricornus-cloud/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/capricornus-platform/capricornus-cloud</RepositoryUrl>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+</Project>
