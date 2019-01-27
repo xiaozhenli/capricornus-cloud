@@ -4,7 +4,7 @@ Capricornus Cloud provides tools for developers to quickly build distributed sys
 ## Architecture
 ![Architecture](../static/images/draft.png)
 
-## What is the Capricornus Cloud want to do?
+## Features
 - Service Discovery
 - Config Server
 - Circuit Breaker
