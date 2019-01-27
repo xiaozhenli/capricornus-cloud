@@ -28,16 +28,33 @@ EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F7373D29-7FB2-4525-8298-8E7F740EE171}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{FB47969E-83EB-4BDB-8F45-18DE4D6D73B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capricornus.Cloud.Extensions.Nacos.Abstractions", "src\Capricornus.Cloud.Extensions.Nacos.Abstractions\Capricornus.Cloud.Extensions.Nacos.Abstractions.csproj", "{1F20C422-AD3A-4470-ACA5-5299DE4E7646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capricornus.Cloud.Extensions.Nacos", "src\Capricornus.Cloud.Extensions.Nacos\Capricornus.Cloud.Extensions.Nacos.csproj", "{36552B7B-01B1-4339-81A4-417052B5D691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F20C422-AD3A-4470-ACA5-5299DE4E7646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F20C422-AD3A-4470-ACA5-5299DE4E7646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F20C422-AD3A-4470-ACA5-5299DE4E7646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F20C422-AD3A-4470-ACA5-5299DE4E7646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36552B7B-01B1-4339-81A4-417052B5D691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36552B7B-01B1-4339-81A4-417052B5D691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36552B7B-01B1-4339-81A4-417052B5D691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36552B7B-01B1-4339-81A4-417052B5D691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1011150D-C1C8-4C96-AC1B-AB951A467A78} = {E1B0A453-F234-4192-800A-5839319F3A95}
 		{C86A589B-AF33-408D-89B6-84C16F32A6DC} = {E1B0A453-F234-4192-800A-5839319F3A95}
 		{F7373D29-7FB2-4525-8298-8E7F740EE171} = {E1B0A453-F234-4192-800A-5839319F3A95}
+		{FB47969E-83EB-4BDB-8F45-18DE4D6D73B2} = {655521F5-7483-4664-A607-D7E87561AD9B}
+		{1F20C422-AD3A-4470-ACA5-5299DE4E7646} = {FB47969E-83EB-4BDB-8F45-18DE4D6D73B2}
+		{36552B7B-01B1-4339-81A4-417052B5D691} = {FB47969E-83EB-4BDB-8F45-18DE4D6D73B2}
 	EndGlobalSection
 EndGlobal
