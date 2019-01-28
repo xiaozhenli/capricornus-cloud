@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="..\..\build\common.props" />
+
+    <PropertyGroup>
+        <Description>Nacos Client for Capricornus Cloud.</Description>
+        <AssemblyTitle>Capricornus.Cloud.Extensions.Nacos.Abstractions</AssemblyTitle>
+        <AssemblyName>Capricornus.Cloud.Extensions.Nacos.Abstractions</AssemblyName>
+        <PackageId>Capricornus.Cloud.Extensions.Nacos.Abstractions</PackageId>
+        <PackageTags>Cloud;Service Discovery;Nacos</PackageTags>
+        <PackageReleaseNotes>
+        </PackageReleaseNotes>
+        <RootNamespace>Capricornus.Cloud.Extensions.Nacos</RootNamespace>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    </ItemGroup>
+
+</Project>
